@@ -102,6 +102,5 @@ question from the catalog-layer question.
 them from serving multiple table formats from a single HMS connection.
 
 **Separate finding:** Gravitino's current HMS catalog connector enforces a single
-table type per catalog connection. This is a Gravitino implementation gap, not
-an engine limitation. The target behavior for HMS and Glue catalogs in Gravitino
+table type per catalog connection. The target behavior for HMS and Glue catalogs in Gravitino
 is what this environment demonstrates.
