@@ -95,9 +95,6 @@ make clean                # remove containers + volumes
 
 ## Relationship to Gravitino
 
-This environment is intentionally Gravitino-free. It isolates the engine-layer
-question from the catalog-layer question.
-
 **What this proves:** Spark and Trino have no architectural constraint preventing
 them from serving multiple table formats from a single HMS connection.
 
