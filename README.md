@@ -93,11 +93,8 @@ make logs-svc SVC=hms     # tail a specific service log
 make clean                # remove containers + volumes
 ```
 
-## Relationship to Gravitino
+## Conclusions 
 
-**What this proves:** Spark and Trino have no architectural constraint preventing
+Spark and Trino have no architectural constraint preventing
 them from serving multiple table formats from a single HMS connection.
 
-**Separate finding:** Gravitino's current HMS catalog connector enforces a single
-table type per catalog connection. The target behavior for HMS and Glue catalogs in Gravitino
-is what this environment demonstrates.
